@@ -252,7 +252,7 @@ project
 
 -   **Opis**: Pracownik potwierdza, że pojazd został oddany przez klienta.
 -   **Aktorzy**: Pracownik
--   **Warunki wstępne**: Pracownik jest zalogowany do aplikacji i przegląda listę aktualnie wypożyczonych pojazdów.
+-   **Warunki wstępne**: Pracownik jest zalogowany do aplikacji.
 -   **Kroki**:
     1.  Pracownik przegląda listę aktualnie wypożyczonych pojazdów.
     2.  Pracownik wybiera pojazd, który został oddany.
