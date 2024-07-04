@@ -283,6 +283,6 @@ project
   
    ## 8. Planowany rozwój testów
    Rozbudowanie repozytorium kodu o testy:
-   * jednostkowe - sprawdzenie poprawności działania pojedynczych funkcji i metod.
+   * jednostkowe - sprawdzenie poprawności działania funkcji każdej z osobna.
    * integracyjne - sprwawdzenie poprawności współpracy połączonych komponentów.
    * automatyczne testy GUI - sprawdzenie poprawności działania aplikacji za pomocą automatycznych testów interfejsu użytkownika.
