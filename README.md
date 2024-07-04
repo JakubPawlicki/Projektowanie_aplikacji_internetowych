@@ -77,7 +77,7 @@ W obecnej wersji aplikacji nie występują połączenia między modułami inne n
 
 ### 5.1 Zastosowane technologie
 
--   **Node.js**: Środowisko uruchomieniowe JavaScript na serwerze.
+-   **Node.js**: Środowisko uruchomieniowe JS na serwerze.
 -   **Express**: Framework dla Node.js do tworzenia aplikacji webowych.
 -   **Handlebars**: Silnik szablonów do stworzenia graficznego interfejsu użytkownika.
 -   **MySQL**: Relacyjna baza danych.
