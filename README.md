@@ -264,7 +264,7 @@ project
 
 -   **Opis**: Pracownik anuluje wypożyczenie pojazdu przed jego rozpoczęciem.
 -   **Aktorzy**: Pracownik
--   **Warunki wstępne**: Pracownik jest zalogowany do aplikacji i przegląda listę aktualnie wypożyczonych pojazdów.
+-   **Warunki wstępne**: Pracownik jest zalogowany do aplikacji.
 -   **Kroki**:
     1.  Pracownik przegląda listę aktualnie wypożyczonych pojazdów.
     2.  Pracownik wybiera pojazd, którego wypożyczenie ma być anulowane.
