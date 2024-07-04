@@ -96,11 +96,11 @@ W obecnej wersji aplikacji nie występują połączenia między modułami inne n
     DATABASE_PASSWORD = 
     DATABASE_NAME = 
     SECRET_KEY = `
-2.  Stwórz bazę danych "carrental", wszystkie potrzebne tabele zostaną automatycznie stworzone.
+2.  Stwórz bazę danych o nazwie <DATABASE_NAME>, wszystkie potrzebne tabele zostaną automatycznie stworzone.
             
     `mysql -u root -p
-    DROP DATABASE carrental;
-    CREATE DATABASE carrental;` 
+    DROP DATABASE <DATABASE_NAME>;
+    CREATE DATABASE <DATABASE_NAME>;` 
     
 3.  Przed uruchomieniem aplikacji, zainstaluj niezbędne biblioteki:
         
@@ -114,8 +114,8 @@ W obecnej wersji aplikacji nie występują połączenia między modułami inne n
     
 6.  Aby zalogować się do aplikacji można użyć domyślnego konta:
     
-    -   Login: test@firma.pl
-    -   Hasło: Jakub1234
+    -   Login: admin@firma.pl
+    -   Hasło: admin
 
 ----------
 
