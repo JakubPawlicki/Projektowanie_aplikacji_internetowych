@@ -9,18 +9,18 @@ Aplikacja internetowa do obsługi wypożyczalni samochodów jest przeznaczona dl
 
 ### 2.1 Wymagania funkcjonalne
 
--   **Rejestracja użytkowników**: System musi umożliwiać użytkownikom rejestrację poprzez podanie imienia, nazwiska, adresu e-mail znajdującego się w domenie firmy i hasła.
--   **Logowanie użytkowników**: System musi umożliwiać zalogowanie się zarejestrowanym użytkownikom przy użyciu adresu e-mail i hasła.
--   **Przeglądanie listy pojazdów**: Umożliwia przeglądanie listy wszystkich dostępnych samochodów w bazie danych.
--   **Wyświetlanie szczegółów pojazdu**: Wyświetla szczegółowe informacje o wybranym samochodzie, w tym cenę, standard, opis, numer rejestracyjny oraz historię wypożyczeń.
--   **Filtrowanie pojazdów**: Umożliwia filtrowanie listy pojazdów według kryteriów takich jak standard, maksymalna cena i liczba pasażerów.
--   **Dodawanie nowego pojazdu**: Pozwala pracownikom dodawać nowe samochody do bazy danych, wprowadzając wszystkie niezbędne informacje.
--   **Edytowanie istniejącego pojazdu**: Umożliwia edytowanie informacji o istniejących pojazdach w bazie danych.
--   **Oznaczanie pojazdu jako wypożyczony**: Pozwala pracownikom oznaczyć samochód jako wypożyczony, wpisując dane klienta oraz okres wypożyczenia.
--   **Lista aktualnie wypożyczonych pojazdów**: Wyświetla listę wszystkich aktualnie wypożyczonych samochodów wraz z informacjami o klientach i okresach wynajmu.
--   **Potwierdzenie oddania pojazdu**: Umożliwia pracownikom potwierdzenie oddania pojazdu przez klienta na liście aktualnie wypożyczonych samochodów.
--   **Anulowanie wypożyczenia**: Pozwala pracownikom anulować wypożyczenie pojazdu na liście aktualnie wypożyczonych samochodów.
--   **Zmiana hasła użytkownika**: Umożliwia pracownikom zmianę hasła do swojego konta, zwiększając bezpieczeństwo systemu.
+- **Rejestracja użytkowników:** System musi umożliwiać użytkownikom rejestrację poprzez podanie imienia, nazwiska, adresu e-mail znajdującego się w domenie firmy i hasła.
+- **Logowanie użytkowników:** System musi umożliwiać zalogowanie się zarejestrowanym użytkownikom przy użyciu adresu e-mail i hasła.
+- **Przeglądanie listy pojazdów:** System musi umożliwiać przeglądanie listy wszystkich dostępnych samochodów w bazie danych.
+- **Wyświetlanie szczegółów pojazdu:** System musi umożliwiać wyświetlanie szczegółowych informacji o wybranym samochodzie, w tym cenę, standard, opis, numer rejestracyjny oraz historię wypożyczeń.
+- **Filtrowanie pojazdów:** System musi umożliwiać filtrowanie listy pojazdów według kryteriów takich jak standard, maksymalna cena i liczba pasażerów.
+- **Dodawanie nowego pojazdu:** System musi umożliwiać pracownikom dodawanie nowych samochodów do bazy danych, wprowadzając wszystkie niezbędne informacje.
+- **Edytowanie istniejącego pojazdu:** System musi umożliwiać edytowanie informacji o istniejących pojazdach w bazie danych.
+- **Oznaczanie pojazdu jako wypożyczony:** System musi umożliwiać pracownikom oznaczenie samochodu jako wypożyczonego, wpisując dane klienta oraz okres wypożyczenia.
+- **Lista aktualnie wypożyczonych pojazdów:** System musi umożliwiać wyświetlanie listy wszystkich aktualnie wypożyczonych samochodów wraz z informacjami o klientach i okresach wynajmu.
+- **Potwierdzenie oddania pojazdu:** System musi umożliwiać pracownikom potwierdzenie oddania pojazdu przez klienta na liście aktualnie wypożyczonych samochodów.
+- **Anulowanie wypożyczenia:** System musi umożliwiać pracownikom anulowanie wypożyczenia pojazdu na liście aktualnie wypożyczonych samochodów.
+- **Zmiana hasła użytkownika:** System musi umożliwiać pracownikom zmianę hasła do swojego konta, zwiększając bezpieczeństwo systemu.
 
 ### 2.2 Wymagania niefunkcjonalne
 
