@@ -91,16 +91,21 @@ W obecnej wersji aplikacji nie występują połączenia między modułami inne n
 
 ### 5.3 Kroki wymagane do instalacji i uruchomienia aplikacji
 1. Stwórz plik .env ze zmiennymi:
-    `DATABASE_HOST = 
-    DATABASE_USER = 
-    DATABASE_PASSWORD = 
-    DATABASE_NAME = 
-    SECRET_KEY = `
+```plaintext
+DATABASE_HOST =
+DATABASE_USER =
+DATABASE_PASSWORD =
+DATABASE_NAME =
+SECRET_KEY =
+```
+
 2.  Stwórz bazę danych o nazwie <DATABASE_NAME>, wszystkie potrzebne tabele zostaną automatycznie stworzone.
             
-    `mysql -u root -p
-    DROP DATABASE <DATABASE_NAME>;
-    CREATE DATABASE <DATABASE_NAME>;` 
+```sql
+mysql -u root -p
+DROP DATABASE <DATABASE_NAME>;
+CREATE DATABASE <DATABASE_NAME>;
+```
     
 3.  Przed uruchomieniem aplikacji, zainstaluj niezbędne biblioteki:
         
