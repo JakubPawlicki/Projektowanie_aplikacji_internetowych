@@ -117,6 +117,65 @@ W obecnej wersji aplikacji nie występują połączenia między modułami inne n
     -   Login: admin@firma.pl
     -   Hasło: admin
 
+### 5.4 Struktura repozytorium
+
+```
+project
+│   .env
+│   app.js
+│   database.js
+│   package.json
+│   passport-config.js
+│   passport-config.json
+│
+├───controllers
+│       accountController.js
+│       authController.js
+│       carManagementController.js
+│
+├───public
+│   ├───css
+│   │       loginPage.css
+│   │       main.css
+│   │
+│   └───js
+│           editCar.js
+│           rentCar.js
+│
+├───routers
+│   ├───carManagement
+│   │       carManagement.js
+│   │
+│   ├───userAuthorization
+│   │       userAuthorization.js
+│   │
+│   └───userManagement
+│           userManagement.js
+│
+└───views
+    ├───carManagement
+    │       addCar.hbs
+    │       carHistory.hbs
+    │       carInfo.hbs
+    │       editCar.hbs
+    │       rentCar.hbs
+    │       rentList.hbs
+    │
+    ├───layouts
+    │       main.hbs
+    │
+    ├───partials
+    │       carForm.hbs
+    │
+    ├───userAuthorization
+    │       loginPage.hbs
+    │       registerPage.hbs
+    │
+    └───userManagement
+            deleteAccount.hbs
+            userSettings.hbs
+            homePage.hbs
+```
 ----------
 
 ## 6. Przypadki użycia dla pracownika
