@@ -16,7 +16,7 @@ connection.connect(async function (err) {
         if (err) throw err;
     });
 
-    connection.query("CREATE TABLE IF NOT EXISTS `car` (`registration_number` VARCHAR(45) NOT NULL, `name` VARCHAR(45) NOT NULL, `category` VARCHAR(45) NOT NULL, `number_of_passengers` TINYINT(2) NOT NULL, `price` TINYINT(2) NOT NULL, `description` INT NULL, `status` VARCHAR(45) NOT NULL DEFAULT 'available', PRIMARY KEY (`registration_number`))", function (err, result) {
+    connection.query("CREATE TABLE IF NOT EXISTS `car` (`registration_number` VARCHAR(45) NOT NULL, `name` VARCHAR(45) NOT NULL, `category` VARCHAR(45) NOT NULL, `number_of_passengers` TINYINT(2) NOT NULL, `price` TINYINT(2) NOT NULL, `description` VARCHAR(60), `status` VARCHAR(45) NOT NULL DEFAULT 'available', PRIMARY KEY (`registration_number`))", function (err, result) {
         if (err) throw err;
     });
 
@@ -24,7 +24,6 @@ connection.connect(async function (err) {
         if (err) throw err;
     });
 
-    // Check if the default admin user exists
     connection.query("SELECT * FROM user WHERE user_email = 'admin@firma.pl'", async function (err, result) {
         if (err) throw err;
 
@@ -32,7 +31,6 @@ connection.connect(async function (err) {
             // Hash the default password
             const hashedPassword = await bcrypt.hash('admin', 10);
 
-            // Insert the default admin user
             connection.query("INSERT INTO user (user_name, user_surname, user_email, user_password) VALUES (?, ?, ?, ?)", ['admin', 'admin', 'admin@firma.pl', hashedPassword], function (err, result) {
                 if (err) throw err;
                 console.log('Default admin user added successfully.');
