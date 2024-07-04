@@ -90,24 +90,29 @@ W obecnej wersji aplikacji nie występują połączenia między modułami inne n
 -   **MySQL**: Zastosowany z uwagi na niezawodność, wydajność i szeroką akceptację, zapewniającą skalowalność i integralność danych w projekcie.
 
 ### 5.3 Kroki wymagane do instalacji i uruchomienia aplikacji
-
-1.  Stwórz bazę danych "carrental", wszystkie potrzebne tabele zostaną automatycznie stworzone.
+1. Stwórz plik .env ze zmiennymi:
+    `DATABASE_HOST = 
+    DATABASE_USER = 
+    DATABASE_PASSWORD = 
+    DATABASE_NAME = 
+    SECRET_KEY = `
+2.  Stwórz bazę danych "carrental", wszystkie potrzebne tabele zostaną automatycznie stworzone.
             
     `mysql -u root -p
     DROP DATABASE carrental;
     CREATE DATABASE carrental;` 
     
-2.  Przed uruchomieniem aplikacji, zainstaluj niezbędne biblioteki:
+3.  Przed uruchomieniem aplikacji, zainstaluj niezbędne biblioteki:
         
     `npm install` 
     
-3.  Aby uruchomić jednocześnie frontend i backend, wpisz:
+4.  Aby uruchomić jednocześnie frontend i backend, wpisz:
             
     `npm start` 
     
-4.  Aplikacja zostanie uruchomiona pod adresem: [localhost:3000](http://localhost:3000).
+5.  Aplikacja zostanie uruchomiona pod adresem: [localhost:3000](http://localhost:3000).
     
-5.  Aby zalogować się do aplikacji można użyć domyślnego konta:
+6.  Aby zalogować się do aplikacji można użyć domyślnego konta:
     
     -   Login: test@firma.pl
     -   Hasło: Jakub1234
