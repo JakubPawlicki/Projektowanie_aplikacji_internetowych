@@ -218,3 +218,7 @@ W obecnej wersji aplikacji nie występują połączenia między modułami inne n
 -   Stworzenie części dla klienta, w której będzie mógł przejrzeć listę dostępnych aut i utworzyć rezerwacje na dany samochód.
   
    ## 8. Planowany rozwój testów
+   Rozbudowanie repozytorium kodu o testy:
+   * jednostkowe - sprawdzenie poprawności działania pojedynczych funkcji i metod.
+   * integracyjne - sprwawdzenie poprawności współpracy połączonych komponentów.
+   * automatyczne testy GUI - sprawdzenie poprawności działania aplikacji za pomocą automatycznych testów interfejsu użytkownika.
