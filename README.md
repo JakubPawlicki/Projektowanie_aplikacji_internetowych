@@ -88,7 +88,6 @@ W obecnej wersji aplikacji nie występują połączenia między modułami inne n
 -   **Express**: Wybrany ze względu na uproszczenie tworzenia aplikacji webowych poprzez dostarczenie lekkiego i elastycznego zestawu narzędzi do obsługi tras, middleware i żądań HTTP.
 -   **Handlebars**: Wykorzystany do dynamicznego generowania HTML, co ułatwia oddzielenie logiki od warstwy prezentacji.
 -   **MySQL**: Zastosowany z uwagi na niezawodność, wydajność i szeroką akceptację, zapewniającą skalowalność i integralność danych w projekcie.
--   
 
 ### 5.3 Zastosowane biblioteki:
 
