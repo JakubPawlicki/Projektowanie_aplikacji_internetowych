@@ -95,7 +95,7 @@ W obecnej wersji aplikacji nie występują połączenia między modułami inne n
 - **body-parser**: Jest to middleware, który parsuje treść żądań HTTP. Został zastosowany, aby mieć łatwy dostęp do danych w formacie JSON w obiektach req.body. 
 - **express-session**: Jest to middleware który zarządza sesjami użytkowników. Przechowuje dane sesji po stronie serwera. Został zastosowany, aby śledzić stan sesji między różnymi zapytaniami od tego samego klienta.
 - **dotenv**: Pozwala na ładowanie zmiennych środowiskowych z pliku .env do procesu Node.js. Wykorzystany, aby nie przechowywać ważnych danych takich jak sekretne klucze bezpośrednio w kodzie.
-- **passport**: Pozwala na łatwą autoryzację i uwierzytelnianie użytkowników. Został zastosowany, aby logowanie oraz autoryzację.
+- **passport**: Pozwala na łatwą autoryzację i uwierzytelnianie użytkowników. Został zastosowany, aby ułatwić logowanie oraz autoryzację.
 - **bcrypt**: Jest to biblioteka do haszowania haseł. Została zastosowana aby przechowywać hasła użytkowników w bazie danych w bezpieczny sposób.
 - **mysql2**: Umożliwa łączenie się z bazą danych MySQL, wykonywanie zapytań SQL. Została wykorzystana, aby ułatwić zarządzenie danymi w bazie danych.
 
